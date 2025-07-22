@@ -28,7 +28,6 @@
     "macd_positive": -0.0002,
     "macd_negative": 0.0002
   },
-  "gales": [1, 2, 4, 8],
   "max_gales": 3,             
   "blackout": {
     "enabled": true,
