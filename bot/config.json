@@ -1,0 +1,39 @@
+{
+  "mongodb": {
+    "ip": "147.93.7.253",
+    "port": 27017,
+    "username": "mongodb",
+    "password": "3ReSGpsD6TFDF5ww",
+    "db": "candles"
+  },
+  "telegram": {
+    "bot_token": "8116318094:AAE5cO2UUkHO4dXgAmTcGed7OWZvJl9lPKQ",
+    "chat_id": "-4606816459"
+  },
+  "pairs": [
+    "EURUSD",
+    "GBPUSD",
+    "USDJPY",
+    "USDCAD",
+    "AUDCAD"
+  ],
+  "settings": {
+    "rsi_period": 7,
+    "ma_period": 9,
+    "signal_cooldown": 45,
+    "expiration_minutes": 5,
+    "analysis_interval": 30,
+    "rsi_oversold": 28,
+    "rsi_overbought": 72,
+    "macd_positive": -0.0002,
+    "macd_negative": 0.0002
+  },
+  "gales": [1, 2, 4, 8],
+  "max_gales": 3,             
+  "blackout": {
+    "enabled": true,
+    "start_hour": 23,
+    "end_hour": 5
+  },
+  "one_signal_at_a_time": true
+}
